@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.example"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/demo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Educational_Content"
+            android:label="@string/title_activity_educational__content" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".AfterClick" android:label="List Of Files" >    </activity>
+            <activity android:name=".Videoview" android:label="Video Content"  >
+       </activity>
+        <activity android:name="EducationContentDemo" android:label="List Of Contents" 
+                 ></activity>
+    </application>
+
+</manifest>
