@@ -98,8 +98,8 @@ public class EducationContentDemo extends Activity
               		
               		AlertDialog.Builder builder = new AlertDialog.Builder(context);
                   	builder.setIcon(R.drawable.demo);
-                  	builder.setTitle("blender animation videos are not present in the tablet!!!");
-                  	builder.setMessage(	"Store the lecture videos at any one of the"+"\n"
+                  	builder.setTitle("Educational Contents are not present in the tablet!!!");
+                  	builder.setMessage(	"Store the Educational Content at any one of the"+"\n"
                   	+"following locations"+"\n"+"\n"+"1. mnt/sdcard/Educational Content"
                   			+"\n"+"2. mnt/extsd/Educational Content")
                   	
